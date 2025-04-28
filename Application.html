@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Application Form</title>
+</head>
+<body>
+
+    <h1>Application Form</h1>
+
+    <form action="/submit" method="post">
+        <label for="fullname">Full Name:</label><br>
+        <input type="text" id="fullname" name="fullname" required><br><br>
+
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone"><br><br>
+
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob"><br><br>
+
+        <label for="position">Position Applying For:</label><br>
+        <input type="text" id="position" name="position"><br><br>
+
+        <label for="resume">Upload Resume:</label><br>
+        <input type="file" id="resume" name="resume"><br><br>
+
+        <label for="coverletter">Cover Letter:</label><br>
+        <textarea id="coverletter" name="coverletter" rows="5" cols="30"></textarea><br><br>
+
+        <button type="submit">Submit Application</button>
+        <button type="reset">Cancel Submission</button>
+    </form>
+
+</body>
+</html>
