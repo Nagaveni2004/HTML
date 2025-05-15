@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Department Timetable</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="header" style="text-align: center;">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-EO8jcQ38wW-IFCHbarab1cYnkQt88-78Dg&s" alt="logo" width="400">
+    </div>
+
+    <header>
+        <h1 align="center">JSS MAHAVIDYAPEETA</h1>
+        <h2 align="center">JSS SCIENCE AND TECHNOLOGY UNIVERSITY</h2>
+        <h2 align="center">SRI JAYACHAMARAJENDRA COLLEGE OF ENGINEERING</h2>
+        <marquee direction="left">Welcome to SJCE</marquee>
+        <hr />
+        <ul>
+            <li><strong>Constitute college of JSS Science and Technology University</strong></li>
+            <li><strong>Approved by AICTE</strong></li>
+            <li><strong>Governed by the Grant in-Aid Rules of Govt of Karnataka</strong></li>
+            <li><strong>Identified as a lead Institution for World Bank assistance under TEQIP scheme</strong></li>
+        </ul>
+        <hr />
+        <h2 align="center">Department of Computer Science and Engineering</h2>
+        <h3 align="center">Timetable for academic year 2024-25 (Even-Semester UG)</h3>
+        <p align="center"><strong>Semester: VI / Section: 'C' / Room No: CS001, CS002, CS103, CS102, IS SEM HALL</strong></p>
+    </header>
+
+    <table border="1" cellpadding="5" cellspacing="0" width="100%" align="center">
+        <tr>
+            <th rowspan="2">Day</th>
+            <th colspan="11">Time Slots</th>
+        </tr>
+        <tr>
+            <th>7:30-8:30</th>
+            <th>8:30-9:30</th>
+            <th>9:30-10:30</th>
+            <th>10:30-11:00</th>
+            <th>11:00-11:50</th>
+            <th>11:50-12:40</th>
+            <th>12:40-1:30</th>
+            <th>1:30-2:30</th>
+            <th>2:30-3:30</th>
+            <th>3:30-4:30</th>
+            <th>4:30-5:30</th>
+        </tr>
+        <tr>
+            <td>MON</td>
+            <td align="center">--</td>
+            <td align="center">--</td>
+            <td align="center">--</td>
+            <td rowspan="6" align="center">BREAK</td>
+            <td align="center">OE-II [CS001]</td>
+            <td align="center">22CS620 [CS001]</td>
+            <td align="center">22CS642 [EV006]</td>
+            <td rowspan="6" align="center">LUNCH BREAK</td>
+            <td colspan="3" align="center">22CS67L C1 SW1 <br />And<br />22CS68L C2 SW2</td>
+        </tr>
+        <tr>
+            <td>TUE</td>
+            <td colspan="2" align="center">22CS630P C1</td>
+            <td>22CS630[CS103]</td>
+            <td>OE-III[CS102]</td>
+            <td>22CS610[CS103]</td>
+            <td>22CS642[CS103]</td>
+            <td align="center">--</td>
+            <td align="center">--</td>
+            <td align="center">--</td>
+        </tr>
+        <tr>
+            <td>WED</td>
+            <td>22CS620[IS SEM HALL]</td>
+            <td>22CS610[IS SEM HALL]</td>
+            <td>22CS630[IS SEM HALL]</td>
+            <td>OE-II[CS102]</td>
+            <td>22HU612[IS SEM HALL]</td>
+            <td>22CS642[IS SEM HALL]</td>
+            <td align="center">--</td>
+            <td align="center">--</td>
+            <td align="center">--</td>
+        </tr>
+        <tr>
+            <td>THU</td>
+            <td colspan="2" align="center">22CS630P C2</td>
+            <td>22CS630[CS103]</td>
+            <td>OE-III[CS101]</td>
+            <td>22HU612[CS103]</td>
+            <td>22CS610[CS103]</td>
+            <td align="center">--</td>
+            <td align="center">--</td>
+            <td align="center">--</td>
+        </tr>
+        <tr>
+            <td>FRI</td>
+            <td align="center">--</td>
+            <td align="center">--</td>
+            <td align="center">--</td>
+            <td>OE-II[CS103]</td>
+            <td>22CS620[CS002]</td>
+            <td>22CS610[CS002]</td>
+            <td colspan="3" align="center">22CS67L C2 SW1 <br />And<br />22CS68L C1 SW2</td>
+        </tr>
+        <tr>
+            <td>SAT</td>
+            <td align="center">--</td>
+            <td align="center">--</td>
+            <td align="center">--</td>
+            <td>OE-III[CS001]</td>
+            <td align="center">--</td>
+            <td align="center">--</td>
+            <td align="center">--</td>
+            <td align="center">--</td>
+            <td align="center">--</td>
+        </tr>
+    </table>
+    <center>
+        <h3 class="f">Faculty Details</h3>
+        <table border="n" class="t2">
+            <tr>
+                <th>Sub Code</th>
+                <th>Sub Title</th>
+                <th>Credits</th>
+                <th>Course Instructor</th>
+            </tr>
+            <tr>
+                <td>22CS610</td>
+                <td>Machine Learning</td>
+                <td>4</td>
+                <td>Prof.SKC</td>
+            </tr>
+            <tr>
+                <td>22CS620</td>
+                <td>Web Development</td>
+                <td>3</td>
+                <td>Prof.PBM</td>
+            </tr>
+            <tr>
+                <td>22CS630</td>
+                <td>Internet of Things</td>
+                <td>3</td>
+                <td>Prof.SD</td>
+            </tr>
+            <tr>
+                <td>22CS642</td>
+                <td>Cyber Security</td>
+                <td>3</td>
+                <td>Prof.RP</td>
+            </tr>
+            <tr>
+                <td>22CS67L</td>
+                <td>ML Lab</td>
+                <td>1.5</td>
+                <td> </td>
+            </tr>
+            <tr>
+                <td>22CS68L</td>
+                <td>Web Dev Lab</td>
+                <td>1.5</td>
+                <td> </td>
+            </tr>
+            <tr>
+                <td>22CS630P</td>
+                <td>IOT Lab</td>
+                <td>1</td>
+                <td> </td>
+            </tr>
+            <tr>
+                <td>22HU612</td>
+                <td>Constitution</td>
+                <td>0</td>
+                <td> </td>
+            </tr>
+        </table>
+    </center>
+   <footer>
+    &copy;2024 JSSSTU. All rights reserved 
+   </footer>
+</body>
+</html>
